@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The B's Club — Links & Location</title>
+  <meta name="description" content="Interlaken's only Alpine Asian fusion café. Signature bubble tea, DIY ramen, and more.">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --espresso: #3B2416;
+      --rust: #C44A2D;
+      --amber: #EBA33B;
+      --olive: #4B6A3A;
+      --cream: #F3E7D1;
+      --maroon: #5C1F1F;
+      --cream-dark: #E8D4B8;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: var(--cream);
+      color: var(--espresso);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    /* Profile / Header Section */
+    .profile-section {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .profile-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--espresso);
+      margin-bottom: 10px;
+    }
+
+    .profile-subtitle {
+      font-size: 0.9rem;
+      color: var(--rust);
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+    /* Links Container */
+    .links-container {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    /* Link Buttons */
+    .link-btn {
+      display: block;
+      width: 100%;
+      padding: 15px 20px;
+      background-color: transparent;
+      color: var(--espresso);
+      text-decoration: none;
+      text-align: center;
+      font-weight: 600;
+      border: 2px solid var(--espresso);
+      border-radius: 50px;
+      transition: all 0.3s ease;
+    }
+
+    .link-btn:hover {
+      background-color: var(--espresso);
+      color: var(--cream);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(59, 36, 22, 0.2);
+    }
+
+    .link-btn.primary {
+      background-color: var(--rust);
+      color: white;
+      border-color: var(--rust);
+    }
+
+    .link-btn.primary:hover {
+      background-color: var(--maroon);
+      border-color: var(--maroon);
+    }
+
+    /* Location & Map Section */
+    .location-section {
+      width: 100%;
+      max-width: 400px;
+      margin-top: 40px;
+      text-align: center;
+      background: var(--cream-dark);
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    .location-section h3 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+    }
+
+    .location-section p {
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+      line-height: 1.5;
+    }
+
+    /* Image Styling */
+    .map-image {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border: 2px solid var(--espresso);
+      margin-bottom: 15px;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: var(--olive);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-section">
+    <h1 class="profile-title">The B's Club</h1>
+    <p class="profile-subtitle">Alpine Asian Fusion Café · Interlaken</p>
+  </div>
+
+  <div class="links-container">
+    <a href="#" class="link-btn primary">🍽️ View Our Menu</a>
+    <a href="https://www.instagram.com/thebsclub25/" target="_blank" class="link-btn">📷 Instagram (@thebsclub25)</a>
+    <a href="https://www.facebook.com/share/18oWwBMv6D/" target="_blank" class="link-btn">📘 Facebook</a>
+    <a href="https://wa.me/41767742027" target="_blank" class="link-btn">💬 WhatsApp Us</a>
+    <a href="#" target="_blank" class="link-btn">⭐ Leave a Review</a>
+  </div>
+
+  <div class="location-section">
+    <h3>Visit Us</h3>
+    <p>Jungfraustrasse 46, Interlaken<br>Open daily 8AM–9PM</p>
+    
+    <img src="Screenshot 2026-07-06 154333.png" alt="Map to The B's Club" class="map-image">
+    
+    <a href="https://maps.app.goo.gl/Wp2XRW4SzFwwvfwr6" target="_blank" class="link-btn" style="border-radius: 8px;">📍 Open in Google Maps</a>
+  </div>
+
+  <footer>
+    <p>© 2026 The B's Club · Interlaken, Switzerland</p>
+  </footer>
+
+</body>
+</html>
